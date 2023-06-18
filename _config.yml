@@ -1,5 +1,9 @@
 # The Site Configuration
-
+# _config.yml
+assets:
+  self_host:
+    enabled: true
+    env: development
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -26,7 +30,7 @@ description: >- # used by seo meta and the atom feed
   My personal blog: ERREZGOUNY Abderrachid 
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://errezgouny.github.io"
+url: "https://abderrachid.github.io"
 
 github:
   username: errezgouny # change to your github username
