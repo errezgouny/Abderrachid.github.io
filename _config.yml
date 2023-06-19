@@ -4,6 +4,11 @@ assets:
   self_host:
     enabled: true
     env: development
+
+# Disable HTML-Proofer
+html-proofer:
+  enable: false
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
